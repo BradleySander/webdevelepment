@@ -2,9 +2,61 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Opdracht 10</title>
 </head>
 <body>
+<p>
+    &lt;ul&gt; <br>
+    &lt;li&gt;een&lt;/li&gt; <br>
+    &lt;li&gt;twee&lt;/li&gt; <br>
+    &lt;ol&gt; <br>
+    &lt;li&gt;jan&lt;/li&gt; <br>
+    &lt;li&gt;piet&lt;/li&gt; <br>
+    &lt;li&gt;joris&lt;/li&gt; <br>
+    &lt;/ol&gt; <br>
+    &lt;li&gt;vier&lt;/li&gt; <br>
+    &lt;/ul&gt;
+</p>
+    <p>dit is verkeerd omdat in deze code een geordende lijst hebt genest, Als je een geneste lijst wilt maken met "jan", "piet" en "joris" genummerd in de sublijst, moet je de geordende lijst nesten in een lijstitem van de buitenste ongeordende lijst, zoals dit:</p>
+<p>
+    &lt;ul&gt; <br>
+    &lt;li&gt;een&lt;/li&gt; <br>
+    &lt;li&gt;twee&lt;/li&gt; <br>
+    &lt;li&gt; <br>
+    &lt;ol&gt; <br>
+    &lt;li&gt;jan&lt;/li&gt; <br>
+    &lt;li&gt;piet&lt;/li&gt; <br>
+    &lt;li&gt;joris&lt;/li&gt; <br>
+    &lt;/ol&gt; <br>
+    &lt;/li&gt; <br>
+    &lt;li&gt;vier&lt;/li&gt; <br>
+    &lt;/ul&gt; <br>
+</p>
+
+<ul>
+    <li>een</li>
+    <li>twee</li>
+    <li>
+        <ol>
+            <li>jan</li>
+            <li>piet</li>
+            <li>joris</li>
+        </ol>
+    </li>
+    <li>vier</li>
+</ul>
+
+<p>of alles in een ongeordende lijst, zoals dit:</p>
+
+<ul>
+    <li>een</li>
+    <li>twee</li>
+    <li>jan</li>
+    <li>piet</li>
+    <li>joris</li>
+    <li>vier</li>
+</ul>
+
     <a href="/webdevelepment/index.html">Home</a>
 </body>
 </html>
