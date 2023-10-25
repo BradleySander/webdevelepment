@@ -1,0 +1,13 @@
+.spongebob{
+    background-image: url("../files/spongebob.png");
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+.spongebob:hover{
+    background-image: url("../files/spongebob_hover.png");
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}

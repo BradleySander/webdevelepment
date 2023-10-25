@@ -1,0 +1,7 @@
+ul {
+    display:inline-block;
+    width:150px;
+}
+ul a {
+    color:red;
+}
