@@ -1,0 +1,71 @@
+body{
+    background-color: #35363a;
+    color: #ded4d4;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 6px solid red;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+p{
+    font-size: large;
+}
+
+.persoonlijke-info {
+    border-style: solid;
+    border-color: red;
+    margin: 0 auto;
+    font-size: large;
+    text-align: center;
+}
+
+.persoonlijke-info ul {
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+}
+.persoonlijke-info img {
+    width: 100px;
+    height: 113px;
+
+}
+.hobbies {
+    border-style: solid;
+    border-color: red;
+}
+.likes {
+    border-style: solid;
+    border-color: red;
+}
+.prognose {
+    border-style: solid;
+    border-color: red;
+}
+footer {
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    background-color:#d5322f;
+    display:inline-block;
+    cursor:pointer;
+    color:#ded4d4;
+    font-size:17px;
+    font-weight:bold;
+    padding:5px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #d5322f;
+}
+a:hover {
+    background-color:#d5322f;
+}
+a:active {
+    position:relative;
+    top:1px;
+}
