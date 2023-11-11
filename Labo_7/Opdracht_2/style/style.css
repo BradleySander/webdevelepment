@@ -7,7 +7,7 @@ footer{
     text-align: center;
 }
 
-h1{
+h1, .titel{
     text-align: center;
     border-bottom: 6px solid red;
     font-size: xxx-large;
