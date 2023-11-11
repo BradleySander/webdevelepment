@@ -1,0 +1,41 @@
+footer{
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kalender table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.kalender th{
+    background-color: rgb(170,170,200);
+}
+
+.kalender .days th{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+    border: 1px dotted #3474dc;
+}
+
+.kalender td {
+    border: 1px dotted black;
+}
+
+.kalender td:first-child,.kalender td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+
+.zestiende{
+    background-color: rgb(250,120,120);
+}
+
+.kalender tbody .vorigeOffVolgendeMaand{
+    background-color: #cccccc;
+    color: #b6b0ab;
+}

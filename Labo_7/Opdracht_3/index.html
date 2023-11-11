@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 3</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<h1>Vrienden</h1>
+<div class="center">
+    <section class="Vrienden">
+        <table>
+            <thead>
+            <tr>
+                <th>Voornaam</th>
+                <th>Familienaam</th>
+                <th>leeftijd</th>
+                <th>postcode</th>
+                <th>stad</th>
+                <th>email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Errol</td>
+                <td>Schalkwijk</td>
+                <td>19</td>
+                <td>8700</td>
+                <td class="onbekend">Kanegem</td>
+                <td><a href="mailto:ErrolSchalkwijk@dayrep.com">ErrolSchalkwijk@dayrep.com</a></td>
+            </tr>
+            <tr class="alt">
+                <td>Gies</td>
+                <td>van Weert</td>
+                <td>18</td>
+                <td>8300</td>
+                <td class="onbekend">Knokke</td>
+                <td><a href="mailto:GiesvanWeert@rhyta.com">GiesvanWeert@rhyta.com</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</div>
+<section>
+    <h1>Vraag</h1>
+    <h2>De regel <code>.onbekend {background-color:red;}</code> heeft geen effect op een <code>&lt;td&gt;</code> cel met class "onbekend" binnen een <code>&lt;tr&gt;</code> rij met class "alt" vanwege specifieke stijlen die al zijn gedefinieerd voor "alt" rijen. Om dit op te lossen, moet een specifieke regel toegevoegd worden, zoals <code>tr.alt td.onbekend { background-color: red; }</code>, om de rode achtergrondkleur te laten gelden voor cellen met class "onbekend" binnen "alt" rijen.</h2>
+
+</section>
+
+<footer>
+    <a href="/webdevelepment/index.html">terug naar home pagina</a>
+</footer>
+</body>
+</html>
