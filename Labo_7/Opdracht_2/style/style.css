@@ -10,75 +10,9 @@ h1{
     font-weight: bold;
 }
 
-p{
-    font-size: large;
-}
-
-.persoonlijke-info {
-    border-style: solid;
-    border-color: red;
-    margin: 0 auto;
-    font-size: large;
+h2{
     text-align: center;
-}
-
-.persoonlijke-info ul {
-    display: inline-block;
-    text-align: left;
-    padding: 10px;
-}
-
-div.container {
-    text-align: center;
-}
-
-.hobbies ol{
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-}
-
-.persoonlijke-info img {
-    width: 100px;
-    height: 113px;
-
-}
-.hobbies {
-    border-style: solid;
-    border-color: red;
-}
-.likes {
-    border-style: solid;
-    border-color: red;
-}
-.prognose {
-    border-style: solid;
-    border-color: red;
-}
-footer {
-    border-style: solid;
-    border-color: red;
-    text-align: center;
-    padding: 10px;
-}
-
-a {
-    background-color:#d5322f;
-    display:inline-block;
-    cursor:pointer;
-    color:#ded4d4;
-    font-size:17px;
-    font-weight:bold;
-    padding:5px;
-    text-decoration:none;
-    text-shadow: #d5322f;
-}
-a:hover {
-    background-color:#8d2c2b;
-}
-a:active {
-    position:relative;
-    top:1px;
+    font-weight: bold;
 }
 
 .center {
