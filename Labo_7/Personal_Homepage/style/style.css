@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
 body{
     background-color: #35363a;
     color: #ded4d4;
+    font-family: sans-serif;
 }
 
 h1{
@@ -87,23 +90,23 @@ a:active {
     align-items: center;
 }
 
-.Vrienden table {
+.vrienden table {
     border-collapse: collapse;
     text-align: center;
     width: 100%;
 }
 
-.Vrienden {
+.vrienden {
     background: #35363AFF;
     overflow: hidden;
     border: 3px solid #FF0000;
 }
 
-.Vrienden table td, .datagrid table th {
+.vrienden table td, .datagrid table th {
     padding: 6px 4px;
 }
 
-.Vrienden table thead th {
+.vrienden table thead th {
     background-color: #FF0000;
     color: #DED4D4;
     font-size: 20px;
@@ -111,29 +114,90 @@ a:active {
     padding: 10px 10px;
 }
 
-.Vrienden table tbody td {
+.vrienden table tbody td {
     color: #DED4D4;
     border-left: 5px solid #ff0000;
     font-size: 15px;
     font-weight: normal;
 }
 
-.Vrienden table tbody td:first-child {
+.vrienden table tbody td:first-child {
     border-left: none;
 }
 
-.Vrienden table tbody tr:last-child td {
+.vrienden table tbody tr:last-child td {
     border-bottom: none;
 }
 
-
-.datagrid table {
+.vrienden table tbody .alt td {
+    background: #8D2C2BFF;
+    color: #DED4D4;
+}
+.prognose table {
     border-collapse: collapse;
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 
-.Vrienden table tbody .alt td {
+.prognose {
+    background: #35363AFF;
+    overflow: hidden;
+    border: 3px solid #FF0000;
+}
+
+.prognose table td, .datagrid table th {
+    padding: 6px 4px;
+}
+
+.prognose table thead th {
+    background-color: #FF0000;
+    color: #DED4D4;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.prognose table tbody td {
+    color: #DED4D4;
+    border-left: 5px solid #ff0000;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.prognose table tbody td:first-child {
+    border-left: none;
+}
+
+.prognose table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.prognose table tbody .alt td {
     background: #8D2C2BFF;
     color: #DED4D4;
+}
+
+.likes{
+    text-align: center;
+}
+
+.likes ol{
+    display: inline-block;
+    list-style: none;
+}
+
+.likes li{
+    text-align: center
+}
+
+.likes img{
+    width: 30%;
+    padding: 0;
+}
+
+.likes a {
+    width: 100%;
+    margin: 5px 5px;
+    padding: 5px;
+    border-radius: 20px;
 }
