@@ -12,7 +12,7 @@ h1{
     font-weight: bold;
 }
 
-h2{
+.center h2{
     text-align: center;
     border-bottom: 6px solid red;
     font-size: xx-large;
