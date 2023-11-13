@@ -201,3 +201,11 @@ a:active {
     padding: 5px;
     border-radius: 20px;
 }
+
+.container ol {
+    padding: 10px;
+}
+
+.likes ol {
+    padding: 10px;
+}
