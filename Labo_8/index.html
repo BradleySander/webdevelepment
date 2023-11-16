@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 1-Opdracht 2-pdracht 3-pdracht 4-pdracht 5</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<main>
+    <header>
+        <h1>Opdracht 1-Opdracht 2-pdracht 3-pdracht 4-pdracht 5</h1>
+    </header>
+
+    <section>
+        <h2>Opdracht 1</h2>
+        <p>
+            Voor welke waarden worden de opgegeven width en height genegeerd?
+            <br>
+            inline
+            <br>
+            Voor welke waarden worden de elementen als woorden op een pagina gezet?
+            <br>
+            inline
+        </p>
+    </section>
+
+    <section>
+        <h2>Opdracht 2</h2>
+        <p>
+            Stel display:inline-block voor de elementen met class area, en bekijk opnieuw ‘voorbeeld1.html’.
+            Vanwaar komen de lege ruimtes tussen blokken die naast elkaar staan? Resize je browservenster
+            horizontaal en kijk hoe de blokken netjes over de regels verdeeld worden.
+        </p>
+        <p>
+            zonder witruimte word alles aan elkaar geplakt
+        </p>
+        <p>
+            &lt;div class="area"&gt;01&lt;/div&gt;
+            &lt;div class="area"&gt;02&lt;/div&gt;
+        </p>
+        <p>
+            als je de elementen geen white space geeft zal hij het aan elkaar plakken als:
+        </p>
+        <p>
+            &lt;div class="area"&gt;03&lt;/div&gt;
+            <br>
+            &lt;div class="area"&gt;02&lt;/div&gt;
+            <br>
+            je deze well whitespace geeft zoals dit dan zal het niet aan elkaar plakken.
+        </p>
+
+
+    </section>
+
+    <section>
+        <h2>Opdracht 3</h2>
+        <p>
+        <p>
+            Waarom staat de tekst in de blokken horizontaal gecentreerd? <code>text-align:center;</code>
+        </p>
+        <p>
+            Ga na dat een property <code>vertical-align: center;</code> geen effect heeft. Waarom eigenlijk niett? het
+            is bedoeld om de verticale uitlijning van inline elementen in het midden van de hoogte van de omliggende
+            tekst of inline box te plaatsen, niet om tekst in blokken verticaal te centreren.
+        </p>
+        <p>
+            Ga na dat <code>vertical-align: middle;</code> Het er niet voor zorgt dat de tekst verticaal gecentreerd
+            wordt.
+        </p>
+        <p>
+            Wat doet <code>vertical-align</code> dan wel? De vertical-align CSS eigenschap regelt de verticale
+            uitlijning van inline en inline-block elementen ten opzichte van de omliggende inhoud.
+        </p>
+        <p>
+            Zoek op Google of er een simpele manier is om tekst verticaal te centreren in een element. Tekst verticaal
+            te centreren in een element, vooral als het gaat om meerdere regels tekst, kan je de 'Flexbox'
+            CSS-layouttechniek gebruiken bv
+        </p>
+        <p>
+            <code>.container {
+                <br>
+                display: flex;
+                <br>
+                justify-content: center; /* Horizontaal centreren */
+                <br>
+                align-items: center; /* Verticaal centreren */
+                }</code><br>
+        </p>
+        <p>
+            • Wat is de ‘simpele’ manier om een één enkele regel tekst verticaal te centreren? (tip: line-height) mijn
+            voorbeeld:
+        </p>
+        <p>
+            .vertical-center {
+            <br>
+            height: 100px; /* Hoogte van het element */
+            <br>
+            line-height: 100px; /* Maakt de tekst verticaal gecentreerd */
+            }
+        </p>
+        <p>
+            • Welke truc wordt vaak gebruikt om meerdere regels verticaal te centreren? (tip: table cell) Een
+            veelgebruikte methode om meerdere regels tekst verticaal te centreren is door het gebruik van CSS, specifiek
+            met behulp van `display: table` en `display: table-cell` voor de container en de inhoud ervan. Dit wordt
+            gecombineerd met `vertical-align: middle` om de tekst verticaal te centreren binnen de container.
+        </p>
+        <p>
+            In 'styles.css' staan twee verschillende CSS regels die de height instellen van een element met class="area
+            tall". Waarom krijgt de regel voor class 'tall' voorrang? omdat deze specefieker is goe specifieker het is
+            of een hogere specificiteitsniveau heeft, doorgaans voorrang krijgen boven een meer algemene regel.
+        </p>
+    </section>
+
+    <section>
+        <h2>Opdracht 4</h2>
+    </section>
+
+</main>
+
+<footer>
+    <a href="/webdevelepment/index.html">terug naar home pagina</a>
+</footer>
+</body>
+</html>
