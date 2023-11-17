@@ -1,50 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
 
-body{
+body {
     background-color: #35363a;
     color: #ded4d4;
     font-family: sans-serif;
 }
-h1{
+
+h1 {
     text-align: center;
     border-bottom: 6px solid red;
     font-size: xxx-large;
     font-weight: bold;
 }
 
-h2{
+h2 {
     text-align: center;
     border-bottom: 6px solid red;
     font-size: xx-large;
     font-weight: bold;
 }
 
-p{
+p {
     font-size: large;
     text-align: center;
 }
 
-a{
-    background-color:#d5322f;
-    display:inline-block;
-    cursor:pointer;
-    color:#ded4d4;
-    font-size:17px;
-    font-weight:bold;
-    padding:5px;
-    text-decoration:none;
+a {
+    background-color: #d5322f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ded4d4;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
     text-shadow: #d5322f;
     text-align: center;
     margin: 5px;
 }
+
 a:hover {
-    background-color:#8d2c2b;
-}
-a:active {
-    position:relative;
-    top:1px;
+    background-color: #8d2c2b;
 }
 
-footer{
+a:active {
+    position: relative;
+    top: 1px;
+}
+
+footer {
     text-align: center;
+}
+
+.opdracht4 div {
+    text-align: center;
+}
+
+.area {
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: inline-block;
+}
+
+.tall {
+    height: 150px;
+}
+
+.short {
+    height: 50px;
+}
+
+.floaty {
+    float: left;
+    background: green;
+}
+
+.break {
+    clear: both;
+    background: blue;
+}
+
+.opdracht5 div {
+    text-align: center;
+}
+
+.area2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: inline-block;
+}
+
+.tall2 {
+    height: 150px;
+}
+
+.short2 {
+    height: 50px;
+}
+
+.floaty2 {
+    float: left;
+    background: green;
+}
+
+.break2 {
+    clear: both;
+    background: blue;
+}
+
+.titleloremipsum h2 {
+    margin-top: 100px;
+}
+
+.loremipsum {
+    display: flex;
+}
+
+.loremipsum p {
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box; /* Hiermee wordt padding en border opgenomen in de breedteberekening */
+}
+
+.loremipsum2 {
+    display: flex;
+    justify-content: space-between; /* Verdeelt de ruimte tussen de kolommen */
+    margin: -10px; /* Compenseert voor de extra margin om de gewenste lege ruimte van 10px te behouden */
+}
+
+.loremipsumcolumn {
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.loremipsum2 div {
+    flex: 1; /* Elk element neemt evenveel ruimte in beslag */
+    margin: 10px; /* Lege ruimte rond elke kolom van 10px */
+    box-sizing: border-box; /* Border en padding worden in de breedte meegerekend */
 }
