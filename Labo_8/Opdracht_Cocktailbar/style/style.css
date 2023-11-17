@@ -22,6 +22,10 @@ div {
     width: 30%;
 }
 
+.right a:hover{
+    background-color: brown;
+}
+
 .right .lemonbreeze {
     color: #ebcc58;
 }
