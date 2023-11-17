@@ -1,0 +1,79 @@
+body {
+    width: 95%;
+    font-size: 1.2em;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+div {
+    display: flex;
+}
+
+.right {
+    border: 1px solid #007e7e;
+    margin: 10px;
+    background-image: url("../images/cocktail.gif");
+    background-position: top center;
+    background-repeat: repeat-x;
+    width: 30%;
+}
+
+.right .lemonbreeze {
+    color: #ebcc58;
+}
+
+.right .chaichiller {
+    color: #6e533d;
+}
+
+.right .blackbrainbrew {
+    color: #16181b;
+}
+
+.right h2, .right h1, .right p, .right a {
+    padding: 10px;
+    color: #007e7e;
+}
+
+.right h1 {
+    color: black;
+}
+
+.left {
+    text-align: left;
+    width: 70%;
+}
+
+h1 {
+    font-size: 150%;
+    color: #007e7e;
+}
+
+h2 {
+    font-size: 130%;
+    color: #007e7e;
+}
+
+footer {
+    font-size: 50%;
+}
+
+#guarantee {
+    margin: 30px;
+    padding: 20px 70px;
+    color: rgb(68, 68, 68);
+    background-color: #a7cece;
+    border: 2px dashed white;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#guarantee a {
+    color: rgb(68, 68, 68);
+}
