@@ -13,13 +13,13 @@ main {
 
 article {
     margin-bottom: 10px;
-    padding: 0 10px;
     overflow: hidden;
     border: solid #ded4d4;
 }
 
 h2 {
     font-size: 1.25em;
+    padding: 0 10px;
 }
 
 p {
@@ -38,7 +38,7 @@ article:nth-child(odd) img {
 
 img {
     max-width: 100%;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 a {
