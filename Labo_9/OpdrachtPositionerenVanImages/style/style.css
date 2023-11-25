@@ -29,15 +29,37 @@ p {
 }
 
 article:nth-child(even) img {
-    float: left;
-    margin-right: 10px;
+    float: right;
 }
 
 article:nth-child(odd) img {
-    float: right;
-    margin-left: 10px;}
+    float: left;
+}
 
 img {
     max-width: 100%;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    background-color:#d5322f;
+    display:inline-block;
+    cursor:pointer;
+    color:#ded4d4;
+    font-size:17px;
+    font-weight:bold;
+    padding:5px;
+    text-decoration:none;
+    text-shadow: #d5322f;
+}
+a:hover {
+    background-color:#8d2c2b;
+}
+a:active {
+    position:relative;
+    top:1px;
+}
+
+footer {
+    text-align: center;
 }
