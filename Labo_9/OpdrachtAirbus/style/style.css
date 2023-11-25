@@ -101,7 +101,6 @@ body{
 }
 
 .block {
-    width: 50%;
     box-sizing: border-box;
     padding-left: 120px;
     margin-bottom: 20px;
