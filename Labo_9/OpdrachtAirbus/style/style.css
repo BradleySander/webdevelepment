@@ -78,19 +78,18 @@ body{
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 180px);
-    grid-gap: 40px;
+    display: inline-block;
     background-color: #999999;
-    padding: 20px;
 }
 
 .foto {
+    display: inline-block;
     width: 180px;
     height: 180px;
     background-color: white;
     padding: 10px;
     border: 1px dashed #999999;
+    margin: 10px;
 }
 
 .bottom {
@@ -112,7 +111,7 @@ body{
 
 .bottom a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .bottom a:hover {
