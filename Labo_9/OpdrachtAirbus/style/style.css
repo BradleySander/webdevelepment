@@ -82,14 +82,19 @@ body{
     background-color: #999999;
 }
 
-.foto {
+.foto img{
     display: inline-block;
     width: 180px;
     height: 180px;
     background-color: white;
     padding: 10px;
     border: 1px dashed #999999;
-    margin: 10px;
+}
+
+.foto {
+    display: inline-block;
+    margin: 20px;
+    margin-right: 10px;
 }
 
 .bottom {
