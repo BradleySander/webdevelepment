@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+body{
+    background-color: #35363a;
+    color: #ded4d4;
+    font-family: sans-serif;
+    width: 99%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 6px solid red;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+p{
+    font-size: large;
+}
+
+.persoonlijke-info {
+    border-style: solid;
+    border-color: red;
+    font-size: large;
+    text-align: center;
+}
+
+.persoonlijke-info ul {
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+.persoonlijke-info img {
+    border-radius: 50%;
+    border: solid red 3px;
+    width: 200px;
+    height: 226px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+div.container {
+    text-align: center;
+}
+
+.hobbies ol{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.hobbies {
+    border-style: solid;
+    border-color: red;
+}
+.likes {
+    border-style: solid;
+    border-color: red;
+}
+.prognose {
+    border-style: solid;
+    border-color: red;
+}
+footer {
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    background-color:#d5322f;
+    display:inline-block;
+    cursor:pointer;
+    color:#ded4d4;
+    font-size:17px;
+    font-weight:bold;
+    padding:5px;
+    text-decoration:none;
+    text-shadow: #d5322f;
+}
+a:hover {
+    background-color:#8d2c2b;
+}
+a:active {
+    position:relative;
+    top:1px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vrienden table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+.vrienden {
+    background: #35363AFF;
+    overflow: hidden;
+    border: 3px solid #FF0000;
+}
+
+.vrienden table td, .datagrid table th {
+    padding: 6px 4px;
+}
+
+.vrienden table thead th {
+    background-color: #FF0000;
+    color: #DED4D4;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.vrienden table tbody td {
+    color: #DED4D4;
+    border-left: 5px solid #ff0000;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.vrienden table tbody td:first-child {
+    border-left: none;
+}
+
+.vrienden table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.vrienden table tbody .alt td {
+    background: #8D2C2BFF;
+    color: #DED4D4;
+}
+.prognose table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+.prognose {
+    background: #35363AFF;
+    overflow: hidden;
+    border: 3px solid #FF0000;
+}
+
+.prognose table td, .datagrid table th {
+    padding: 6px 4px;
+}
+
+.prognose table thead th {
+    background-color: #FF0000;
+    color: #DED4D4;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.prognose table tbody td {
+    color: #DED4D4;
+    border-left: 5px solid #ff0000;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.prognose table tbody td:first-child {
+    border-left: none;
+}
+
+.prognose table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.prognose table tbody .alt td {
+    background: #8D2C2BFF;
+    color: #DED4D4;
+}
+
+.likes{
+    text-align: center;
+}
+
+.likes ol{
+    display: inline-block;
+    list-style: none;
+}
+
+.likes li{
+    text-align: center
+}
+
+.likes img{
+    width: 30%;
+    padding: 0;
+}
+
+.likes a {
+    width: 100%;
+    margin: 5px 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.container ol {
+    padding: 10px;
+}
+
+.likes ol {
+    padding: 10px;
+}
