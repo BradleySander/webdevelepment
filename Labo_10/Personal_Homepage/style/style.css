@@ -37,26 +37,26 @@ p{
 .persoonlijke-info img {
     border-radius: 50%;
     border: solid red 3px;
-    width: 200px;
-    height: 226px;
-    margin-top: -30px;
+    width: 150px;
+    height: 170px;
     margin-bottom: 10px;
-}
-
-div.container {
-    text-align: center;
 }
 
 .hobbies ol{
     list-style: none;
     display: inline-block;
-    text-align: center;
 }
 
 .hobbies {
     border-style: solid;
     border-color: red;
+    text-align: center;
 }
+
+.hobbies a{
+    margin-bottom: 10px;
+}
+
 .likes {
     border-style: solid;
     border-color: red;
@@ -189,7 +189,6 @@ a:active {
 }
 
 .likes ol{
-    display: inline-block;
     list-style: none;
 }
 
@@ -198,15 +197,15 @@ a:active {
 }
 
 .likes img{
-    width: 30%;
-    padding: 0;
+    width: 80%;
+    padding: 5px 0 5px 0;
+    border-radius: 20px;
 }
 
 .likes a {
-    width: 100%;
-    margin: 5px 5px;
-    padding: 5px;
+    width: 80%;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 .container ol {
