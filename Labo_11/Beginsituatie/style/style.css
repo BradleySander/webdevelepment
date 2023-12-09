@@ -1,6 +1,6 @@
 /* items */
 
-.container div{
+.container div {
     color: white;
     font-size: 20px;
     padding: 20px;
@@ -8,7 +8,7 @@
     font-size: 3em;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
@@ -19,6 +19,7 @@
 .item-1 {
     background: #b03532;
 }
+
 .item-2 {
     background: #33a8a5;
     grid-column-start: 2;
@@ -26,6 +27,7 @@
     grid-row-start: 1;
     grid-row-end: 2;
 }
+
 .item-3 {
     background: #30997a;
     grid-column-start: 1;
@@ -33,6 +35,7 @@
     grid-row-start: 4;
     grid-row-end: 5;
 }
+
 .item-4 {
     background: #6a478f;
     grid-column-start: 1;
@@ -40,6 +43,7 @@
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
 .item-5 {
     background: #da6f2b;
     grid-column-start: 2;
@@ -47,9 +51,11 @@
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
 .item-6 {
     background: #3d8bb1;
 }
+
 .item-7 {
     background: #e03f3f;
     grid-column-start: 1;
@@ -57,6 +63,7 @@
     grid-row-start: 3;
     grid-row-end: 4;
 }
+
 .item-8 {
     background: #59a627;
     grid-column-start: 2;
@@ -64,6 +71,7 @@
     grid-row-start: 3;
     grid-row-end: 4;
 }
+
 .item-9 {
     background: #4464a1;
     grid-column-start: 1;
@@ -72,8 +80,8 @@
     grid-row-end: 2;
 }
 
-@media screen and (min-width: 760px){
-    .container{
+@media screen and (min-width: 760px) {
+    .container {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: auto auto auto;
@@ -81,7 +89,6 @@
     }
 
     /* specific item styles */
-
     .item-1 {
         background: #b03532;
         grid-row-start: 1;
@@ -89,6 +96,7 @@
         grid-column-start: 1;
         grid-column-end: 2;
     }
+
     .item-2 {
         background: #33a8a5;
         grid-row-start: 1;
@@ -96,6 +104,7 @@
         grid-column-start: 2;
         grid-column-end: 3;
     }
+
     .item-3 {
         background: #30997a;
         grid-row-start: 1;
@@ -103,6 +112,7 @@
         grid-column-start: 3;
         grid-column-end: 4;
     }
+
     .item-4 {
         background: #6a478f;
         grid-row-start: 2;
@@ -110,6 +120,7 @@
         grid-column-start: 1;
         grid-column-end: 2;
     }
+
     .item-5 {
         background: #da6f2b;
         grid-row-start: 2;
@@ -117,6 +128,7 @@
         grid-column-start: 2;
         grid-column-end: 3;
     }
+
     .item-6 {
         background: #3d8bb1;
         grid-row-start: 2;
@@ -124,6 +136,7 @@
         grid-column-start: 3;
         grid-column-end: 4;
     }
+
     .item-7 {
         background: #e03f3f;
         grid-row-start: 3;
@@ -131,6 +144,7 @@
         grid-column-start: 1;
         grid-column-end: 2;
     }
+
     .item-8 {
         background: #59a627;
         grid-row-start: 3;
@@ -138,6 +152,7 @@
         grid-column-start: 2;
         grid-column-end: 3;
     }
+
     .item-9 {
         background: #4464a1;
         grid-row-start: 3;
