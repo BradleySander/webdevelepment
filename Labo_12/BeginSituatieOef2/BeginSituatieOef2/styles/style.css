@@ -1,0 +1,98 @@
+html {
+    background-color: #333;
+}
+
+body{
+    background-color: grey;
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+    margin: 5px;
+    padding: 10px;
+}
+
+nav{
+    padding: 5px 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    padding: 0;
+}
+
+main section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+main section p{
+    color: black;
+}
+
+section{
+    margin: 5px;
+}
+
+nav a{
+    margin: 0 5px;
+    border: solid #333 1px;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+}
+
+main section a {
+    border: solid #333 1px;
+    color: #333;
+    margin: 10px;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+header, footer{
+    background: #ddaa00;
+    text-align: center;
+}
+footer{
+    border-top: solid black 10px;
+}
+
+footer a{
+        color: blue;
+        border: none;
+        text-align: center;
+}
+
+a{
+    color: #ddaa00;
+    border: solid #333 1px;
+}
+
+nav{
+    background-color: #ccc;
+    text-align: center;
+    color: white;
+}
+
+main section a{
+    color: #333;
+    border: solid #333 1px;
+    text-align: center;
+    display: block;
+}
+
+* {
+    padding: 10px;
+}
+
+@media screen and (min-width: 700px ){
+    main {
+        display: flex;
+        justify-content: center;
+    }
+}
