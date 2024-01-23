@@ -1,0 +1,106 @@
+
+
+.caption {
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.grid {
+    display: grid;
+    text-align: center;
+    grid-template-rows: repeat(5, auto);
+}
+
+.gridHeader {
+    background-color: #dcd6fe;
+    padding: 20px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gridNav {
+    background-color: #c6c0ff;
+    padding: 20px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.gridMain {
+    background-color: #f9f6d2;
+    grid-area: auto;
+    padding: 20px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.gridAside {
+    background-color: #d4ffd1;
+    padding: 20px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gridFooter {
+    background-color: #ffd1d1;
+    padding: 20px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+@media screen and (min-width: 800px) {
+    .grid {
+        display: grid;
+        text-align: center;
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 10% 80% 10%;
+    }
+
+    .gridHeader {
+        background-color: #dcd6fe;
+        padding: 20px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .gridNav {
+        background-color: #c6c0ff;
+        padding: 20px;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-left: 5%;
+    }
+
+    .gridMain {
+        background-color: #f9f6d2;
+        grid-area: auto;
+        padding: 20px;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .gridAside {
+        background-color: #d4ffd1;
+        padding: 20px;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        margin-right: 5%;
+    }
+
+    .gridFooter {
+        background-color: #ffd1d1;
+        padding: 20px;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
