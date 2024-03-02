@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+body{
+    background-color: #35363a;
+    color: #ded4d4;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    border-bottom: 6px solid red;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 6px solid red;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+p{
+    font-size: large;
+}
+
 .opvallend{
     color: red;
 }
