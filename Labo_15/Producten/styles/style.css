@@ -29,4 +29,25 @@ table{
     margin-right: auto;
 }
 
+button{
+    background-color:#d5322f;
+    display:inline-block;
+    cursor:pointer;
+    color:#ded4d4;
+    font-size:17px;
+    font-weight:bold;
+    padding:5px;
+    text-decoration:none;
+    text-shadow: #d5322f;
+    text-align: center;
+    margin: 5px;
+}
+button:hover {
+    background-color:#8d2c2b;
+}
+button:active {
+    position:relative;
+    top:1px;
+}
+
 table,td,th { border: solid 1px red }
