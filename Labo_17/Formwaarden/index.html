@@ -2,9 +2,8 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Formulier</title>
-    <link rel="stylesheet" href="styles/style.css">
     <title>Form voorwaarden</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
@@ -18,22 +17,23 @@
         </label>
         <br>
 
-        <label>
+        <label for="standertLang">
             Moedertaal:
-            <input type="radio" name="language" value="nl" required> Nederlands
+        </label>
+            <input id="standertLang" type="radio" name="language" value="nl" required> Nederlands
             <input type="radio" name="language" value="fr" required> Frans
             <input type="radio" name="language" value="en" required> Engels
-        </label>
         <br>
 
-        <label>
+        <label for="neighbor">
             Favoriete buurland:
+        </label>
             <select name="neighbor" id="neighbor">
                 <option value="Nederland">Nederland</option>
                 <option value="Frankrijk">Frankrijk</option>
                 <option value="Duitsland">Duitsland</option>
             </select>
-        </label>
+
         <br>
         <br>
         <label>
