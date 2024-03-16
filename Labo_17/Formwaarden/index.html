@@ -10,46 +10,48 @@
 
 <h2>Formulier</h2>
 
-<form id="myForm">
-    <label>
-        Is roker:
-        <input type="checkbox" name="smoker" id="smoker">
-    </label>
-    <br>
+<main>
+    <form id="myForm">
+        <label>
+            Is roker:
+            <input type="checkbox" name="smoker" id="smoker">
+        </label>
+        <br>
 
-    <label>
-        Moedertaal:
-        <input type="radio" name="language" value="nl" required> Nederlands
-        <input type="radio" name="language" value="fr" required> Frans
-        <input type="radio" name="language" value="en" required> Engels
-    </label>
-    <br>
+        <label>
+            Moedertaal:
+            <input type="radio" name="language" value="nl" required> Nederlands
+            <input type="radio" name="language" value="fr" required> Frans
+            <input type="radio" name="language" value="en" required> Engels
+        </label>
+        <br>
 
-    <label>
-        Favoriete buurland:
-        <select name="neighbor" id="neighbor">
-            <option value="Nederland">Nederland</option>
-            <option value="Frankrijk">Frankrijk</option>
-            <option value="Duitsland">Duitsland</option>
-        </select>
-    </label>
-    <br>
-    <br>
-    <label>
-        Bestelling:
-        <select name="order" id="order" multiple required>
-            <option value="aardappelen">Aardappelen</option>
-            <option value="brood">Brood</option>
-            <option value="melk">Melk</option>
-            <option value="biefstuk">Biefstuk</option>
-            <option value="chips">Chips</option>
-            <option value="krant">Krant</option>
-        </select>
-    </label>
-    <br>
+        <label>
+            Favoriete buurland:
+            <select name="neighbor" id="neighbor">
+                <option value="Nederland">Nederland</option>
+                <option value="Frankrijk">Frankrijk</option>
+                <option value="Duitsland">Duitsland</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label>
+            Bestelling:
+            <select name="order" id="order" multiple required>
+                <option value="aardappelen">Aardappelen</option>
+                <option value="brood">Brood</option>
+                <option value="melk">Melk</option>
+                <option value="biefstuk">Biefstuk</option>
+                <option value="chips">Chips</option>
+                <option value="krant">Krant</option>
+            </select>
+        </label>
+        <br>
 
-    <button type="button" id="showResultButton">Toon resultaat</button>
-    <script src="scripts/code.js"></script>
-</form>
+        <button type="button" id="showResultButton">Toon resultaat</button>
+        <script src="scripts/code.js"></script>
+    </form>
+</main>
 </body>
 </html>
