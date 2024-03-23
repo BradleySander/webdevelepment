@@ -12,7 +12,7 @@ const setup = () => {
     }
     gemeenten.sort();
     while (i < gemeenten.length){
-        gemeentenSelect.innerHTML += `<option value="${gemeenten[i]}">${gemeenten[i]}</option>`;
+        gemeentenSelect.innerHTML += `<option value="${gemeenten[i]}">${gemeenten[i]}</option>`
         i++;
     }
 
