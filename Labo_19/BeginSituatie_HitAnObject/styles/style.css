@@ -1,8 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+body {
+    background-color: #35363a;
+    color: #ded4d4;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: large;
+}
+
+button{
+    background-color: #d5322f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ded4d4;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: #d5322f;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #8d2c2b;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
 #playField {
     width: 600px;
     height: 800px;
     position: relative;
-    border: 1px solid black;
+    border: 2px solid red;
 }
 
 #target {
