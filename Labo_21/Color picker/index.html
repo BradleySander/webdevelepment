@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Color picker</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<section>
+    <h2>Color Picker</h2>
+    <div class="ColorPicker">
+        <div class="slider-container">
+            <p id="redPara">0<input type="range" id="redSlider" class="slider" value="255" min="0" max="255">255 &nbsp; Rood
+                <span
+                        id="redValue">50</span></p>
+            <p id="greenPara">0<input type="range" id="greenSlider" class="slider" value="0" min="0" max="255">255 &nbsp; Groen
+                <span
+                        id="greenValue">50</span></p>
+            <p id="bluePara">0<input type="range" id="blueSlider" class="slider" value="0" min="0" max="255">255 &nbsp; Blauw
+                <span
+                        id="blueValue">50</span></p>
+
+            <div id="colorDemo" class="colorDemo"></div>
+        </div>
+        <button id="saveButton">Save</button>
+    </div>
+    <div id="savedColors"></div>
+</section>
+
+<script src="scripts/code.js"></script>
+</body>
+</html>
