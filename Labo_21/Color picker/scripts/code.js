@@ -82,14 +82,17 @@ const setup = () => {
     // Event listeners voor schuifregelaars
     redSlider.addEventListener("input", () => {
         updateColor(redSlider, greenSlider, blueSlider, colorDemo);
+        updateSliderValues(redSlider.value, greenSlider.value, blueSlider.value); // Voeg deze aanroep toe
         saveSliderValues(redSlider.value, greenSlider.value, blueSlider.value); // Voeg deze aanroep toe
     });
     greenSlider.addEventListener("input", () => {
         updateColor(redSlider, greenSlider, blueSlider, colorDemo);
+        updateSliderValues(redSlider.value, greenSlider.value, blueSlider.value); // Voeg deze aanroep toe
         saveSliderValues(redSlider.value, greenSlider.value, blueSlider.value); // Voeg deze aanroep toe
     });
     blueSlider.addEventListener("input", () => {
         updateColor(redSlider, greenSlider, blueSlider, colorDemo);
+        updateSliderValues(redSlider.value, greenSlider.value, blueSlider.value); // Voeg deze aanroep toe
         saveSliderValues(redSlider.value, greenSlider.value, blueSlider.value); // Voeg deze aanroep toe
     });
 
@@ -115,9 +118,9 @@ const updateColor = (redSlider, greenSlider, blueSlider, colorDemo) => {
 };
 
 const updateSliderValues = () => {
-    document.getElementById("redValue").textContent = document.getElementById("redSlider").value;
-    document.getElementById("greenValue").textContent = document.getElementById("greenSlider").value;
-    document.getElementById("blueValue").textContent = document.getElementById("blueSlider").value;
+    document.getElementById("redValue").textContent = redSlider.value;
+    document.getElementById("greenValue").textContent = greenSlider.value;
+    document.getElementById("blueValue").textContent = blueSlider.value;
 };
 
 // Roep de setup-functie aan wanneer het venster wordt geladen
