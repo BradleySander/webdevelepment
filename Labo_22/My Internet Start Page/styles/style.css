@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+body{
+    background-color: #35363a;
+    color: #ded4d4;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    border-bottom: 6px solid red;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+code{
+    color: red;
+}
+
+a{
+    background-color: red;
+    cursor:pointer;
+    font-size:17px;
+    font-weight:bold;
+    padding:5px;
+    text-decoration:none;
+    text-shadow: #d5322f;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+a:hover {
+    background-color:#8d2c2b;
+}
+a:active {
+    position:relative;
+    top:1px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#go-button{
+    width: 100%;
+}
+
+#zoekopdracht{
+    width: 100%;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.google-card {
+    background-color: blue;
+}
+
+.google-card a {
+    color: #ded4d4;
+}
+
+.youtube-card {
+    background-color: red;
+}
+
+.youtube-card a{
+    background-color: #35363a;
+    color: red;
+}
+
+.twitter-card {
+    background-color: #08a0e9;
+    color: #35363a;
+}
+
+.twitter-card a{
+    color: #35363a;
+}
+
+.instagram-card {
+    background-color: purple;
+}
+
+.instagram-card a{
+    color: #ded4d4;
+}
