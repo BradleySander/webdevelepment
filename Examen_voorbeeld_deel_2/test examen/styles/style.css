@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+body {
+    background-color: #35363a;
+    color: #ded4d4;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 6px solid red;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+p {
+    font-size: large;
+}
+
+.errorMessage {
+    color: red;
+    font-size: small;
+    display: block;
+}
+
+input.invalid {
+    border: solid 1px red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tank {
+    width: 45%; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.tank-form {
+    text-align: left;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button{
+    background-color:#d5322f;
+    display:inline-block;
+    cursor:pointer;
+    color:#ded4d4;
+    font-size:17px;
+    font-weight:bold;
+    padding:5px;
+    text-decoration:none;
+    text-shadow: #d5322f;
+    text-align: center;
+    margin: 5px;
+}
+button:hover {
+    background-color:#8d2c2b;
+}
+button:active {
+    position:relative;
+    top:1px;
+}

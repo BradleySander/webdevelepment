@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Tank compare</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="tank" id="tank1">
+        <form id="tank1Form">
+            <h1>Tank 1</h1>
+            <div class="line">
+                <label for="dmg1">DAMAGE</label>
+                <input type="number" id="dmg1" value="">
+                <span class="errorMessage" id="errdmg1"></span>
+            </div>
+            <div class="line">
+                <label for="rof1">RATE OF FIRE</label>
+                <input type="number" step="0.01" id="rof1" value="">
+                <span class="errorMessage" id="errrof1"></span>
+            </div>
+            <div class="line">
+                <label for="pen1">PENETRATION AT 100M</label>
+                <input type="number" id="pen1" value="">
+                <span class="errorMessage" id="errpen1"></span>
+            </div>
+            <div class="line">
+                <label for="ams1">AMMO MAX SPEED</label>
+                <input type="number" id="ams1" value="">
+                <span class="errorMessage" id="errams1"></span>
+            </div>
+            <div class="line">
+                <label for="acc1">ACCURACY</label>
+                <input type="number" step="0.01" id="acc1" value="">
+                <span class="errorMessage" id="erracc1"></span>
+            </div>
+            <div class="line">
+                <label for="gd1">GUN DEPRESSION</label>
+                <input type="number" id="gd1" value="">
+                <span class="errorMessage" id="errgd1"></span>
+            </div>
+            <div class="line">
+                <label for="tfs1">TOP FORWARD SPEED</label>
+                <input type="number" step="0.01" id="tfs1" value="">
+                <span class="errorMessage" id="errtfs1"></span>
+            </div>
+            <div class="line">
+                <label for="pwr1">POWER/WEIGHT RATIO</label>
+                <input type="number" step="0.01" id="pwr1" value="">
+                <span class="errorMessage" id="errpwr1"></span>
+            </div>
+        </form>
+        <p>TANK DAMAGE PER MINUTE</p>
+        <p id="tank1dpm"></p>
+    </div>
+
+    <div class="tank" id="tank2">
+        <form id="tank2Form">
+            <h1>Tank 2</h1>
+            <div class="line">
+                <label for="dmg2">DAMAGE</label>
+                <input type="number" id="dmg2" value="">
+                <span class="errorMessage" id="errdmg2"></span>
+            </div>
+            <div class="line">
+                <label for="rof2">RATE OF FIRE</label>
+                <input type="number" step="0.01" id="rof2" value="">
+                <span class="errorMessage" id="errrof2"></span>
+            </div>
+            <div class="line">
+                <label for="pen2">PENETRATION AT 100M</label>
+                <input type="number" id="pen2" value="">
+                <span class="errorMessage" id="errpen2"></span>
+            </div>
+            <div class="line">
+                <label for="ams2">AMMO MAX SPEED</label>
+                <input type="number" id="ams2" value="">
+                <span class="errorMessage" id="errams2"></span>
+            </div>
+            <div class="line">
+                <label for="acc2">ACCURACY</label>
+                <input type="number" step="0.01" id="acc2" value="">
+                <span class="errorMessage" id="erracc2"></span>
+            </div>
+            <div class="line">
+                <label for="gd2">GUN DEPRESSION</label>
+                <input type="number" id="gd2" value="">
+                <span class="errorMessage" id="errgd2"></span>
+            </div>
+            <div class="line">
+                <label for="tfs2">TOP FORWARD SPEED</label>
+                <input type="number" step="0.01" id="tfs2" value="">
+                <span class="errorMessage" id="errtfs2"></span>
+            </div>
+            <div class="line">
+                <label for="pwr2">POWER/WEIGHT RATIO</label>
+                <input type="number" step="0.01" id="pwr2" value="">
+                <span class="errorMessage" id="errpwr2"></span>
+            </div>
+        </form>
+        <p>TANK DAMAGE PER MINUTE</p>
+        <p id="tank2dpm"></p>
+    </div>
+</div>
+
+<div class="button-container">
+    <button id="btnCompare" value="Compare">Compare</button>
+</div>
+
+<script src="scripts/validatie.js"></script>
+<script src="scripts/code.js"></script>
+</body>
+</html>
